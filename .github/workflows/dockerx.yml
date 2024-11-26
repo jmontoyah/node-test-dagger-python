@@ -12,7 +12,7 @@ on:
 jobs:
   dockerx:
     runs-on: ubuntu-latest
-    steps:
+    steps: 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
 
