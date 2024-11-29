@@ -20,5 +20,5 @@ class nodetest:
             # change the working directory to /src
             .with_workdir("/src")
             # run npm install to install dependencies
-            .with_exec(["npm", "install"])
+            .with_exec(["npm", "install"]) 
         )
