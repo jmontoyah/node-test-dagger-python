@@ -13,4 +13,4 @@ rest is a long description with more detail on the module's purpose or usage,
 if appropriate. All modules should have a short description.
 """
 
-from .main import nodetest as nodetest
+from .main import NodeTestDaggerPython as NodeTestDaggerPython
