@@ -45,7 +45,7 @@ class NodeTestDaggerPython:
         await self.build_env(source).with_exec(["npm", "install"]).stdout() 
 
         # Ejecutar pruebas
-        await self.build_env(source).with_exec(["npm", "run", "test"]).stdout()
+        await self.build_env(source).with_exec(["npm", "run", "test"]).stdout() 
 
         # Aquí omitimos el paso de "npm run build"
         # await self.build_env(source).with_exec(["npm", "run", "build"]).stdout()
