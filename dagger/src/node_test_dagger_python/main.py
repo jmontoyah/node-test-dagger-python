@@ -42,7 +42,7 @@ class NodeTestDaggerPython:
     async def build(self, source: dagger.Directory) -> str:
         """Construir el proyecto (si es necesario)"""
         # Instalar dependencias
-        await self.build_env(source).with_exec(["npm", "install"]).stdout()
+        await self.build_env(source).with_exec(["npm", "install"]).stdout() 
 
         # Ejecutar pruebas
         await self.build_env(source).with_exec(["npm", "run", "test"]).stdout()
